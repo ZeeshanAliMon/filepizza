@@ -14,7 +14,7 @@
 	to open up a link that will start the download
 -->
 <script>
-// This will prevent the sw from restarting
+// This will prevent the sw from restarting.
 let keepAlive = () => {
   keepAlive = () => {}
   var ping = location.href.substr(0, location.href.lastIndexOf('/')) + '/ping'
